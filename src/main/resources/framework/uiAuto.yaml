@@ -1,0 +1,44 @@
+#name: "框架设计"
+#descprition: "适用于selenium和appium自动化测试框架"
+steps:
+  - click: {id: search}
+  - id: search
+    sendKeys: "框架设计"
+  - id: search
+    action: getText
+    key: search_text
+#  - id: search
+#    sendKeys: "xxxxx"
+#  - click: { id: search }
+#  - id: search
+#    action: getText
+#    key: search_text
+#  - click: { id: search }
+#  - sendKeys: "搭建框架-sendkeys"
+#    id: search
+#  - action: getText
+#    id: search
+#    key: search_text
+
+  #  #  基本自动化领域模型
+  #  #  业务模型
+  #  #通用方法
+  #  - method: click
+  #    params: [1, 2]
+  #  #    通用方法加参数
+  #  - method: click
+  #    params:
+  #      by: id
+  #      value: search
+  #  #简化格式
+  #  - by: uai expr
+  #    value: search
+  #    action: click
+  #    #进一步简化，如果by只是单个简单的字符串，可以进一步简化
+  #  - id: search
+  #    action: click
+  #  - id: search
+  #    action: sendKeys
+  #    text: "xxxx"
+
+
