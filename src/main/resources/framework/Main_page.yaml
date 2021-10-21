@@ -1,10 +1,16 @@
-#name: "框架设计"
-#descprition: "适用于selenium和appium自动化测试框架"
-steps:
-  - action: get
-    url: "https://www.baidu.com"
-  - click: {linkText: "新闻"}
-#  - click: {linkText: "贴吧"}
+name: main
+methods:
+  init:
+    - action: get
+      url: "https://baidu.com"
+    - click: {linkText: "贴吧"}
+    - click: {linkText: "新闻"}
+
+
+#  visit:
+#    - click: {linktext: 贴吧}
+#    - click: {linktext: 地图}
+
 #  - click: {linktext: "取消"}
 #  - click: {linktext: "登录"}
 #  - id: search

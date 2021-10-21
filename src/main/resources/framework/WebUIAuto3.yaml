@@ -1,0 +1,12 @@
+name: xxx
+description: xxx
+steps:
+  - page: main
+    action: init
+
+#  - page: main
+#    action: visit
+
+#  - page: contact
+#  - action: search
+
