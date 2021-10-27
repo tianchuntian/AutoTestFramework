@@ -86,6 +86,18 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.30</version>
         </dependency>
+        <dependency>
+            <groupId>net.lightbody.bmp</groupId>
+            <artifactId>browsermob-core</artifactId>
+            <version>2.1.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-jre8</artifactId>
+            <version>2.31.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <properties>
